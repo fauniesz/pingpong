@@ -1,3 +1,4 @@
+// business logic
 var pong = function(inputN) {
    var result = [];
    for (var i = 0; i <= inputN; i++ ) {
@@ -13,6 +14,8 @@ var pong = function(inputN) {
  }
  return result;
 };
+
+// jQuery user interface logic here.
 $(function() {
  $(".pong" ).submit(function(event) {
    event.preventDefault();
