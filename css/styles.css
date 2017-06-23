@@ -17,14 +17,19 @@ body {
   font-weight: bolder;
 }
 
+h1 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
 img {
   width: 600px;
-  display:inline-block;
-  position:relative;
-  border:1px solid black;
-  padding:5px;
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+  padding: 5px;
   background: gray;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 .btn {
@@ -36,57 +41,60 @@ img {
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  margin:10px
+  margin: 10px
 }
 
 ul {
-text-align: center;
+  list-style-type: none;
 }
 
 li {
-text-align: center;
 }
 
 .dropbtn {
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    padding-left:100px;
-    padding-right:100px;
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: gray;
-    text-align: center;
+  background-color: gray;
+  text-align: center;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: gray;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-align: center;
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 56px 56px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
+  color: black;
+  padding: 56px 56px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
 
-.show {display:block;}
+.show {
+  display: block;
+}

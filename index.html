@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>PING PONG</title>
-  </head>
-  <body>
-    <div class="header">
-      <img id="pingPong" src="img/ping-pong.jpg" alt="ping-pong" />
-    </div>
 
-    <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">About The Creater</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="https://fauniesz.github.io/Welcome-to-my-World/">Created By: Faunie Szeloczei</a>
-        <a href="https://github.com/fauniesz">GitHub Username: fauniesz</a>
-      </div>
-    </div>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>PING PONG</title>
+</head>
 
-    <div class="rules">
-        <h3>Here are the Rules:</h3>
-        <ul>
-          <li>Numbers divisible by 3 become "PING"</li>
-          <li>Numbers divisible by 5 become "PONG"</li>
-          <li>Numbers divisible by 15 become "PING-PONG"</li>
-        </ul>
-      </div>
+<body>
+  <div class="header">
+    <img id="pingPong" src="img/ping-pong.jpg" alt="ping-pong" />
+  </div>
 
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">About The Creater</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="https://fauniesz.github.io/Welcome-to-my-World/">Created By: Faunie Szeloczei</a>
+      <a href="https://github.com/fauniesz">GitHub Username: fauniesz</a>
     </div>
+  </div>
+
+  <div class="rules">
+    <h1>Here are the Rules:</h1>
+    <ul>
+      <li>Numbers divisible by 3 become "PING"</li>
+      <li>Numbers divisible by 5 become "PONG"</li>
+      <li>Numbers divisible by 15 become "PING-PONG"</li>
+    </ul>
+  </div>
+
+  </div>
   <div class="container">
     <div class="page-header">
       <h1>PING PONG</h1>
@@ -37,20 +39,21 @@
 
     <form class="pong">
       <div>
-      <h3>READY. SET. GO!</h3>
+        <h3>READY. SET. GO!</h3>
 
-      <input type="number" min="1" id="inputNumber" placeholder="Enter Number Here!">
-      <button type="submit" class="btn btn-success btn-md">PLAY!</button>
+        <input type="number" min="1" id="inputNumber" placeholder="Enter Number Here!">
+        <button type="submit" class="btn btn-success btn-md">PLAY!</button>
       </div>
     </form>
 
-  <div class="seeOutput">
-    <h3>RESULT</h3>
-    <ul id="showOutput">
-    </ul>
-  </div>
+    <div class="seeOutput">
+      <h3>RESULT</h3>
+      <ul id="showOutput">
+      </ul>
+    </div>
   </div>
 
   </div>
 </body>
+
 </html>
