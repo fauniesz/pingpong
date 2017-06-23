@@ -1,30 +1,31 @@
 // business logic
-var pong = function(inputN) {
+var pong = function(lastNumber) {
   var result = [];
-  for (var i = 0; i <= inputN; i++) {
-    if (i % 3 === 0 && i % 15 !== 0) {
-      result.push("PING");
-    } else if (i % 5 === 0 && i % 15 !== 0) {
-      result.push("PONG");
-    } else if (i % 15 === 0) {
+  for (var c = 1; c <= lastNumber; c++) {
+    if (c % 15 === 0) {
       result.push("PING-PONG");
+    } else if (c % 5 === 0) {
+      result.push("PONG");
+    } else if (c % 3 === 0) {
+      result.push("PING");
     } else {
-      result.push(i);
+      result.push(c);
     }
   }
+
   return result;
 };
 
 // jQuery user interface logic here.
 $(function() {
   $(".pong").submit(function(event) {
-  $("#see-output").show();
     event.preventDefault();
+    $("#see-output").show();
     $("ul#show-output").empty();
-    var inputN = parseInt($("#inputNumber").val());
-    var output = pong(inputN);
-    for (var i = 1; i <= inputN; i++) {
-      $("#show-output").append("<li>" + output[i] + "</li>");
+    var numberSubmitted = parseInt($("#input-number").val());
+    var output = pong(numberSubmitted);
+    for (var c = 0; c <= numberSubmitted; c++) {
+      $("#show-output").append("<li>" + output[c] + "</li>");
     }
   });
 
