@@ -23,7 +23,8 @@ $(function() {
     $("ul#show-output").empty();
     var numberSubmitted = parseInt($("#input-number").val());
     var output = pong(numberSubmitted);
-    for (var c = 0; c <= numberSubmitted; c++) {
+    var lastPosition = numberSubmitted - 1;
+    for (var c = 0; c <= lastPosition; c++) {
       $("#show-output").append("<li>" + output[c] + "</li>");
     }
   });
