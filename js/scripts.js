@@ -12,7 +12,6 @@ var pong = function(lastNumber) {
       result.push(c);
     }
   }
-
   return result;
 };
 
