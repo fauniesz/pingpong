@@ -36,19 +36,17 @@ img {
   background-color: black;
   text-shadow: 2px 2px gray;
   color: white;
-  font-size: 20px;
   padding: 10px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
   margin: 10px
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 li {
+  padding: 0;
 }
 
 .dropbtn {
@@ -97,4 +95,8 @@ li {
 
 .show {
   display: block;
+}
+
+#see-output {
+  display: none;
 }

@@ -18,12 +18,13 @@ var pong = function(inputN) {
 // jQuery user interface logic here.
 $(function() {
   $(".pong").submit(function(event) {
+  $("#see-output").show();
     event.preventDefault();
-    $("ul#showOutput").empty();
+    $("ul#show-output").empty();
     var inputN = parseInt($("#inputNumber").val());
     var output = pong(inputN);
     for (var i = 1; i <= inputN; i++) {
-      $("#showOutput").append("<li>" + output[i] + "</li>");
+      $("#show-output").append("<li>" + output[i] + "</li>");
     }
   });
 
