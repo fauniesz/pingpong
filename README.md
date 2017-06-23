@@ -1,6 +1,6 @@
 Ping Pong
 
-{This is a game of ping ping. https://fauniesz.github.io/ping-pong/}, {6/22/2017}
+{This is a game of ping ping. https://fauniesz.github.io/pingpong/}, {6/22/2017}
 
 By {Faunie}
 
