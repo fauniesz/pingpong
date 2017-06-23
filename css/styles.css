@@ -1,0 +1,40 @@
+.rules {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-color: gray;
+  text-shadow: 3px 3px gray;
+  color: black;
+  background-image: url(../img/wall.jpg);
+  background-size: 100% auto;
+  top: 0;
+  left: 0;
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+img {
+  width: 600px;
+  display:inline-block;
+  position:relative;
+  border:1px solid black;
+  padding:5px;
+  background: gray;
+  margin-bottom:30px;
+}
+
+.btn {
+  background-color: black;
+  text-shadow: 2px 2px gray;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:10px
+}

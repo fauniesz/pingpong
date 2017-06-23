@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>PING PONG</title>
+  </head>
+  <body>
+    <div class="header">
+      <img id="pingPong" src="img/ping-pong.jpg" alt="ping-pong" />
+    </div>
+
+    <div class="rules">
+        <h3>Here are the Rules:</h3>
+        <ul>
+          <li>Numbers divisible by 3 become "PING"</li>
+          <li>Numbers divisible by 5 become "PONG"</li>
+          <li>Numbers divisible by 15 become "PING-PONG"</li>
+        </ul>
+      </div>
+
+    </div>
+  <div class="container">
+    <div class="page-header">
+      <h1>PING PONG</h1>
+    </div>
+
+    <form class="pong">
+      <div>
+      <h3>READY. SET. GO!</h3>
+
+      <input type="number" min="1" id="inputNumber" placeholder="Enter Number Here!">
+      <button type="submit" class="btn btn-success btn-md">PLAY!</button>
+      </div>
+    </form>
+
+  <div class="seeOutput">
+    <h3>RESULT</h3>
+    <ul id="showOutput">
+
+    </ul>
+  </div>
+  </div>
+
+  </div>
+</body>
+</html>
